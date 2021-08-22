@@ -1,0 +1,85 @@
+.third__Main {
+  background: #040720;
+  display: flex;
+}
+
+.third__Container {
+  min-height: 70vh;
+  color: white;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  flex: 1 1 40rem;
+  min-height: 55vh;
+  text-align: center;
+  background-color: violet;
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(239, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(239, 0, 255, 1) 52%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  border-radius: 32px;
+}
+
+.card2 {
+  flex: 1 1 40rem;
+  min-height: 55vh;
+  text-align: center;
+  background: rgb(108, 255, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(108, 255, 0, 1) 21%,
+    rgba(255, 255, 255, 1) 95%
+  );
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  border-radius: 32px;
+}
+
+.card3 {
+  flex: 1 1 40rem;
+  min-height: 55vh;
+  text-align: center;
+  background: rgb(149, 0, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(149, 0, 255, 1) 23%,
+    rgba(255, 255, 255, 1) 92%
+  );
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  border-radius: 32px;
+}
+
+.third__Container button {
+  border: none;
+  margin: 1rem 0rem;
+  background: #040720;
+  padding: 1.5rem 4rem;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}

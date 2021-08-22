@@ -1,0 +1,54 @@
+.fourth__Main {
+  background: #040720;
+}
+
+.fourth__Container {
+  width: 90%;
+  min-height: 80vh;
+  margin: auto;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fourth__Container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image__Container {
+  flex: 1 1 40rem;
+}
+
+.fourth__Container header {
+  flex: 1 1 40rem;
+  text-align: center;
+}
+
+.fourth__Container header h1 {
+  padding: 2rem 0rem;
+  font-size: 5rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+.fourth__Container header p {
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.fourth__Container header button {
+  padding: 2rem 4rem;
+  background: rgb(255, 0, 168);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 168, 1) 23%,
+    rgba(255, 255, 255, 1) 92%
+  );
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
